@@ -137,9 +137,9 @@ footer {
 .Projects .InfoProject--article {
   width: 18vw;
   overflow: hidden;
-  height: 24vh;
   border: solid white 5px;
   padding: 3% 5% 3% 5%;
+  cursor: pointer;
 }
 .Projects .InfoProject--article--img {
   width: 100%;
@@ -148,6 +148,38 @@ footer {
   margin: 0;
   font-size: 1rem;
   text-align: center;
+}
+.Projects .InfoProject--modal {
+  width: 30vw;
+}
+.Projects .InfoProject--modal div {
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1vh;
+  width: 29vw;
+  height: 100%;
+  border: solid 5px white;
+}
+.Projects .InfoProject--modal div .InfoProject--modal--img {
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 25vw;
+  grid-column-start: 1 span 2;
+}
+.Projects .InfoProject--modal div .InfoProject--modal--title {
+  grid-row-start: 2;
+  grid-column-start: 1 span 2;
+}
+.Projects .InfoProject--modal div .InfoProject--modal--description {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+.Projects .InfoProject--modal div .InfoProject--modal--stacksAndtools {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+.Projects .InfoProject--modal div .InfoProject--modal--stacksAndtools ul {
+  list-style-type: ">_ ";
+  font-weight: bold;
 }
 
 .Contact {

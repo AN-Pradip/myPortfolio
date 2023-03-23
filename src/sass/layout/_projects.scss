@@ -6,9 +6,9 @@
     .InfoProject--article{
         width: 18vw;
         overflow: hidden;
-        height: 24vh;
         border: solid white 5px;
         padding: 3% 5% 3% 5%;
+        cursor: pointer;
         &--img{
            width: 100%;
         }
@@ -17,5 +17,38 @@
             font-size: 1rem;
             text-align: center;
         }
+    }
+    .InfoProject--modal{      
+            width: 30vw; 
+        div{
+            grid-template-columns: 1fr 1fr ;
+            row-gap: 1vh;
+            width: 29vw;
+            height: 100%;
+            border: solid 5px white;
+            .InfoProject--modal--img{
+                margin-left: 7%;
+                margin-right: 7%;
+                width: 25vw;
+                grid-column-start: 1 span 2;
+            }
+            .InfoProject--modal--title{
+                grid-row-start: 2;
+                grid-column-start: 1 span 2;
+            }
+            .InfoProject--modal--description{
+                grid-row-start: 3;
+                grid-column-start: 1;
+            }
+            .InfoProject--modal--stacksAndtools{
+                grid-row-start: 3;
+                grid-column-start: 2;
+                ul{
+                    list-style-type: ">_ ";
+                    font-weight: bold;
+                }
+            }
+        }
+        
     }
 }

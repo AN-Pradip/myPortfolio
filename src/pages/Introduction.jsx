@@ -7,9 +7,8 @@ function Introduction(){
         <section className="Introduction">
             <img src={PradipImage} alt="autoPortrait" />
             <div className="Introduction-Description">
-            Développeur passionné dans le domaine du web depuis plus de 6 ans, actuellement développeur Web.
+            Développeur passionné dans le domaine du web !
             Je conçois et réalise des sites web du cahier des charges à la mise en ligne.
-            Je developpe aussi en JAVA, ce qui me permet de développer des applications mobiles android
             </div>
         </section>
     )
