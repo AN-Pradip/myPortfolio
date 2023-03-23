@@ -1,0 +1,36 @@
+.Skills{
+    display: grid;
+    grid-template-columns: 1fr 5vw 1fr ;
+    .Skills-Skill{
+        .eachSkill{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 0 10px 0;
+            font-size: 2rem;
+        }
+    }
+    &-Tools{
+        grid-column-start: 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        &-Title{
+            font-weight: bold;
+            font-size: 2rem;
+            grid-column-end: span 2;
+            margin: 0;
+            text-decoration: underline;
+            text-indent: 4vw;
+        }
+        img{
+            height: 4vh;
+        }
+        h3{
+            font-size: 2rem;
+            font-weight: normal;
+            margin: 0;
+        }
+    }
+}

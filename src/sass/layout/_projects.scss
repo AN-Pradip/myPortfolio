@@ -1,0 +1,21 @@
+.Projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    row-gap: 4vh;
+    .InfoProject--article{
+        width: 18vw;
+        overflow: hidden;
+        height: 24vh;
+        border: solid white 5px;
+        padding: 3% 5% 3% 5%;
+        &--img{
+           width: 100%;
+        }
+        &--title{
+            margin: 0;
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+}

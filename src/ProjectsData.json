@@ -1,0 +1,41 @@
+[
+    {
+        "id":"1",
+        "title": "Création d'une application web de location immobilière avec React",
+        "coverURL":"https://drive.google.com/uc?export=view&id=1QP-xhFnW08LgSWtrEs5TDh8Q2X6Sv26O",
+        "description": "Création d'une application web de location immobilière avec des composants React, des routes React Router et en suivant les maquettes Figma",
+        "stacks&tools":[
+            "React JS",
+            "SASS"
+        ]
+    },
+    {
+        "id":"2",
+        "title": "Optimisation du référencement d'un site de photographe",
+        "coverURL":"https://drive.google.com/uc?export=view&id=1IBXXVdCt_JgIDJ3_qAh1SfiNQ5cAkaqk",
+        "description": "Optimisation d'un site en ajoutant du référencement local, des metas, des outils d'audit et en améliorant l’accessibilité du site.",
+        "stacks&tools":[
+            "Schema.org"
+        ]
+    },
+    {
+        "id":"3",
+        "title": "Débuggage d'un site d'une agence d'événementiel",
+        "coverURL":"https://drive.google.com/uc?export=view&id=1gLJ7LZmGF1C58nO_RPw5J9-AiM9cE6sW",
+        "description": "Débuggage d'un site d'une agence d'événementiel en utilisant les tests et les composants React JS",
+        "stacks&tools":[
+            "React JS",
+            "CSS"
+        ]
+    },
+    {
+        "id":"4",
+        "title": "Planifiez le développement d'un site",
+        "coverURL":"https://drive.google.com/uc?export=view&id=14biZ5IfoiJWfLTO5yMlmG5z1MzMZNd1N",
+        "description": "Développement d'un système de veille, des spécifications techniques et organisation de la gestion de projet du développement du site.",
+        "stacks&tools":[
+            "ClickUp",
+            ""
+        ]
+    }
+]

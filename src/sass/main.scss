@@ -1,0 +1,17 @@
+//GLOBAL VARIABLES
+@import "./variables";
+
+//TYPOGRAPHY
+@import "./base/typography";
+
+//COMPONENTS
+@import "./components/navBar";
+@import "./components/competency";
+
+//LAYOUT
+@import "./layout/globalStyle";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/introduction";
+@import "./layout/skills";
+@import "./layout/projects";
