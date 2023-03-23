@@ -1,0 +1,22 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        text-decoration: underline;
+    }
+    ul{
+        list-style-type: ">_ ";
+        li{
+            margin-bottom: 1rem;
+            span{
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

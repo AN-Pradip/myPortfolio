@@ -128,4 +128,49 @@ footer {
   margin: 0;
 }
 
+.Projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 4vh;
+}
+.Projects .InfoProject--article {
+  width: 18vw;
+  overflow: hidden;
+  height: 24vh;
+  border: solid white 5px;
+  padding: 3% 5% 3% 5%;
+}
+.Projects .InfoProject--article--img {
+  width: 100%;
+}
+.Projects .InfoProject--article--title {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contact h2 {
+  text-decoration: underline;
+}
+.Contact ul {
+  list-style-type: ">_ ";
+}
+.Contact ul li {
+  margin-bottom: 1rem;
+}
+.Contact ul li span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.Contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
