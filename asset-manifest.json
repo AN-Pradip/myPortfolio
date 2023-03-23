@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.b952d6c3.css",
-    "main.js": "/myPortfolio/static/js/main.d8686390.js",
+    "main.js": "/myPortfolio/static/js/main.30f81802.js",
     "static/js/787.128fc6e9.chunk.js": "/myPortfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Pradip-ANANDA.jpg": "/myPortfolio/static/media/Pradip-ANANDA.112d7e901d58e9eea927.jpg",
     "static/media/mongoDB.png": "/myPortfolio/static/media/mongoDB.a603ee28692e851e10c4.png",
@@ -10,11 +10,11 @@
     "static/media/gitHub.png": "/myPortfolio/static/media/gitHub.a5db7b9c174cbca7e341.png",
     "index.html": "/myPortfolio/index.html",
     "main.b952d6c3.css.map": "/myPortfolio/static/css/main.b952d6c3.css.map",
-    "main.d8686390.js.map": "/myPortfolio/static/js/main.d8686390.js.map",
+    "main.30f81802.js.map": "/myPortfolio/static/js/main.30f81802.js.map",
     "787.128fc6e9.chunk.js.map": "/myPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b952d6c3.css",
-    "static/js/main.d8686390.js"
+    "static/js/main.30f81802.js"
   ]
 }
