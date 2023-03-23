@@ -19,10 +19,10 @@ function App() {
   }
 
   return (
-      <HashRouter basename="/">
+      <HashRouter basename="/myPortfolio">
           <Header location={navigate} />
           <nav className="navBar">
-            <Link className="" to="/myPortfolio" onClick={ () => Navigate("Introduction")}> Introduction </Link>
+            <Link className="" to="/" onClick={ () => Navigate("Introduction")}> Introduction </Link>
             <Link className="" to="/réalisations" onClick={ () => Navigate("Réalisations")}> Réalisations  </Link>
             <Link className="" to="/compétences" onClick={ () => Navigate("Compétences")}> Compétences </Link>
             <Link className="" to="/contact" onClick={ () => Navigate("Contact")}> Contact </Link>
