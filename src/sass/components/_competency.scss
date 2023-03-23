@@ -15,3 +15,26 @@
     }
     
 }
+@media screen and (max-width: 768px) {
+    .Competency {
+        height: 1vh;
+        column-gap: 5px;
+    }
+    
+  }
+  @media screen and (max-width: 425px) {
+    .Competency {
+        height: 0.5vh;
+        padding: 0.5% 0.2% 0.5% 0.2%;
+        column-gap: 1px;
+        .white{
+            background-color: white;
+            width: 0.2vw;
+        }
+        .grey{
+            background-color: grey;
+            width: 0.2vw;
+        }
+    }
+    
+  }

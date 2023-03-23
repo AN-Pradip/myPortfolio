@@ -34,3 +34,47 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .Skills{
+        display: grid;
+        grid-template-columns: 1fr 5vw 1fr ;
+        .Skills-Skill{
+            .eachSkill{
+                font-size: 1rem;
+            }
+        }
+        &-Tools{
+            &-Title{
+                font-size: 1rem;
+            }
+            img{
+                height: 2vh;
+            }
+            h3{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .Skills{
+        display: grid;
+        grid-template-columns: 1fr 5vw 1fr ;
+        .Skills-Skill{
+            .eachSkill{
+                font-size: 0.5rem;
+            }
+        }
+        &-Tools{
+            &-Title{
+                font-size: 0.5rem;
+            }
+            img{
+                height: 1vh;
+            }
+            h3{
+                font-size: 0.5rem;
+            }
+        }
+    }
+}

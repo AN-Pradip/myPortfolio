@@ -52,3 +52,21 @@
         
     }
 }
+@media screen and (max-width: 768px) {
+    .Projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        .InfoProject--article{
+            width: 70vw;
+        }
+        .InfoProject--modal{      
+            width: 50vw; 
+            div{
+                width: 49vw;
+                .InfoProject--modal--img{
+                    width: 40vw;
+                }
+            }
+        }
+    }
+  }

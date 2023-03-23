@@ -11,3 +11,14 @@
         line-height: 2rem;
     }
 }
+@media screen and (max-width: 425px) {
+    .Introduction{
+        img{
+            width: 25vw;
+            height: fit-content;
+        }
+        &-Description{
+            font-size: 0.5rem;
+        }
+    }
+  }
