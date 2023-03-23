@@ -40,6 +40,7 @@ function Projects(){
                                 })}
                                 </ul>
                             </div>
+                            <a href={InfoProject.SourceURL}>{InfoProject.SourceURL} </a>
                         </div> 
                     </dialog>
                 </article>

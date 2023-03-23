@@ -4,6 +4,7 @@
         "title": "Création d'une application web de location immobilière avec React",
         "coverURL":"https://i.imgur.com/yiYtC2E.png",
         "description": "Création d'une application web de location immobilière avec des composants React, des routes React Router et en suivant les maquettes Figma",
+        "SourceURL": "https://github.com/AN-Pradip/Kasa",
         "stacksAndtools":[
             "React JS",
             "SASS"
@@ -14,6 +15,7 @@
         "title": "Optimisation du référencement d'un site de photographe",
         "coverURL":"https://i.imgur.com/7vS34ZQ.png",
         "description": "Optimisation d'un site en ajoutant du référencement local, des metas, des outils d'audit et en améliorant l’accessibilité du site.",
+        "SourceURL": "https://github.com/AN-Pradip/GitNinaCarducci",
         "stacksAndtools":[
             "Schema.org"
         ]
@@ -23,6 +25,7 @@
         "title": "Débuggage d'un site d'une agence d'événementiel",
         "coverURL":"https://i.imgur.com/MdwgpHR.png",
         "description": "Débuggage d'un site d'une agence d'événementiel en utilisant les tests et les composants React JS",
+        "SourceURL": "https://github.com/AN-Pradip/GitOp724Events",
         "stacksAndtools":[
             "React JS",
             "CSS"
@@ -33,9 +36,9 @@
         "title": "Planifiez le développement d'un site",
         "coverURL":"https://i.imgur.com/JuMwwj0.png",
         "description": "Développement d'un système de veille, des spécifications techniques et organisation de la gestion de projet du développement du site.",
+        "SourceURL": "https://app.clickup.com/20517982/v/s/66666982",
         "stacksAndtools":[
-            "ClickUp",
-            ""
+            "ClickUp"
         ]
     }
 ]
